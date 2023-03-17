@@ -3,9 +3,6 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: names.csv
-      enabled: false
-      type: text/csv
     - id: tpt
       enabled: true
       name: Terrestrial Parasite Tracker Taxonomy
