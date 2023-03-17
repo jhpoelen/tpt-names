@@ -7,15 +7,6 @@ datasets:
       enabled: true
       name: Terrestrial Parasite Tracker Taxonomy
       type: application/nomer
-    - url: https://example.org/data.tsv
-      enabled: false
-      type: text/tab-separated-values
-    - url: https://serv.biokic.asu.edu/ecdysis/content/dwca/UCSB-IZC_DwC-A.zip
-      enabled: false
-      type: application/dwca
-    - url: https://scan-bugs.org:443/portal/webservices/dwc/rss.xml 
-      enabled: false
-      type: application/rss+xml
 # 
 taxonomies:
 #
@@ -33,42 +24,15 @@ taxonomies:
     - id: ncbi
       enabled: true
       name: NCBI Taxonomy
-    - id: discoverlife
-      enabled: false
-      name: Discover Life Taxonomy
-    - id: batnames
-      enabled: false
-      name: Bat Names 
     - id: col
       enabled: true
       name: Catalogue of Life
     - id: gbif
       enabled: true
       name: GBIF Backbone Taxonomy
-    - id: globi
-      enabled: false
-      name: GloBI Taxon Graph
-    - id: indexfungorum
-      enabled: false
-      name: Index Fungorum
-    - id: mdd
-      enabled: false
-      name: Mammal Diversity Database
-    - id: ott
-      enabled: false
-      name: Open Tree of Life Taxonomy
-    - id: pbdb
-      enabled: false
-      name: Paleobiology Database
-    - id: plazi
-      enabled: false
-      name: Plazi Treatments
     - id: tpt
       enabled: true
       name: Terrestrial Parasite Tracker Taxonomies
-    - id: wfo
-      enabled: false
-      name: World of Flora Online
 ---
 
 # Name Alignment
