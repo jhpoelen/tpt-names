@@ -37,16 +37,16 @@ taxonomies:
       enabled: true
       name: NCBI Taxonomy
     - id: discoverlife
-      enabled: true
+      enabled: false
       name: Discover Life Taxonomy
     - id: batnames
       enabled: false
       name: Bat Names 
     - id: col
-      enabled: false
+      enabled: true
       name: Catalogue of Life
     - id: gbif
-      enabled: false
+      enabled: true
       name: GBIF Backbone Taxonomy
     - id: globi
       enabled: false
@@ -67,7 +67,7 @@ taxonomies:
       enabled: false
       name: Plazi Treatments
     - id: tpt
-      enabled: false
+      enabled: true
       name: Terrestrial Parasite Tracker Taxonomies
     - id: wfo
       enabled: false
