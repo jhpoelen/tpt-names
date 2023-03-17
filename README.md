@@ -4,11 +4,11 @@
 # is assumed to be a local file in working directory
 datasets:
     - url: names.csv
-      enabled: true
-      type: text/csv
-    - id: mdd
       enabled: false
-      name: Mammal Diversity Database
+      type: text/csv
+    - id: tpt
+      enabled: true
+      name: Terrestrial Parasite Tracker Taxonomy
       type: application/nomer
     - url: https://example.org/data.tsv
       enabled: false
